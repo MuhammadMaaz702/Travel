@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Header from './layouts/header/Header.js'
+import Interests from './components/interests/Interests';
+import HomePage from './pages/HomePage/HomePage';
+import { Modal } from 'bootstrap';
+import CarouselSlider from './components/carousel/CarouselSlider';
+import DynamicCarousel from './components/DynamicCarosel/DynamicCarousel';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          upload to vercel by maaz
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Interests/>
+     <HomePage/>
+     <CarouselSlider/>
+     <DynamicCarousel/>
     </div>
   );
 }
