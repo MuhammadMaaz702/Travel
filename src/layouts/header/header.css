@@ -1,0 +1,51 @@
+
+:root{
+    --main-bg-color: rgb(255, 255, 255);
+    --Dark-orange: #F2B203;
+    --cream: #FAF1ED;
+    --Dark-green: #004F32;
+    --lime: #FAF1ED;
+    --black: #000000;
+    --light-lime: #F2F2F2;
+    --Light-orange: #FFFFFF;
+    --text: white;
+    --text-black: black;  
+    --bg-hover:#EDEDED;
+  
+}
+
+
+
+
+
+.navbar ul{
+list-style: none;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    margin-inline: 10px;
+    border-radius: 30px;
+    color: var(--text-black);
+}
+.navbar ul li a:hover{
+    background-color: var(--bg-hover);
+}
+.logo{
+ width: 188px;
+}
+.logo img{
+    width: 100%;
+}
+.login-btn>a{
+    background-color: var(--black);
+    color: var(--text) !important;
+    padding: 8px 12px !important;
+}
+.login-btn>a:hover{
+    background-color: rgb(27, 27, 27) !important;
+}
+
+

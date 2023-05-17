@@ -1,0 +1,43 @@
+.dot-svg svg{
+    fill: #00aa6c;
+}
+.heart-icon{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    /* width: 50px;
+    height: 50px; */
+    padding: 8px;
+    border-radius: 50%;
+    background-color: var(--text);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.bird-icon{
+    position: absolute;
+    left: 5px;
+    bottom: 10px;
+    background-color: var(--Dark-orange);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px 30px 10px 10px;
+}
+.bird-icon p{
+    padding: 0;
+    margin: 0;
+}
+.bird-icon img{
+    width: 100%;
+}
+.advised .slick-arrow .slick-prev, .slick-next{
+    top: 40% !important;
+}
+.advised .slick-arrow .slick-next, .slick-prev{
+    top: 40% !important;
+}
