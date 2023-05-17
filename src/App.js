@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          upload to vercel
+          upload to vercel by maaz
         </p>
         <a
           className="App-link"
