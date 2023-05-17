@@ -1,0 +1,24 @@
+.help-trip-img{
+    background-image: url(../../assets/images/place.jpg);
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+.help-planet{
+    padding: 20px;
+    background-color: var(--Dark-orange);
+    text-align: center;
+    align-items: center;
+}
+.help-planet button{
+    padding: 15px 30px;
+    border: none;
+    background-color: var(--black);
+    border-radius: 30px;
+    color: var(--text);
+}
+.help-planet .col1 img{
+    width: 30px;
+    border-radius: 50%;
+} 

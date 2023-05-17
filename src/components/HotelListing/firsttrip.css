@@ -1,0 +1,29 @@
+.next-trip-img{
+    background-image: url(../../assets/images/trevlers.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 20px;
+}
+.hotel-listing{
+    background-color: var(--cream);
+    margin-block: 60px;
+}
+.hotel-listing .col1{
+    padding: 20px;
+}
+.hotel-listing button{
+    padding: 15px 30px;
+    border: none;
+    background-color: var(--black);
+    border-radius: 30px;
+    color: var(--text);
+}
+
+.hotel-listing .col1 p{
+    padding: 0;
+    margin-bottom: 30px;
+}
