@@ -1,0 +1,50 @@
+.slick-prev, .slick-next{
+    color: rgb(0, 0, 0);
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid var(--black);
+    background-color: var(--text);
+    border-radius: 50%;  
+}
+.carousel-wraper{
+    margin-block: 40px;
+    padding-top: 30px;
+}
+.carousel-wraper p{
+    margin: 0;
+}
+.carousel-wraper h3{
+    color: var(--text);
+}
+.find-sec-head{
+    color: var(--black) !important;
+}
+.arr-right{
+    font-size: 20px;
+}
+ .slick-next:hover{
+    color: var(--text);
+    background-color: var(--black);
+}
+.slick-prev:hover{
+    color: var(--text);
+    background-color: var(--black);
+}
+.find-by{
+    width: 25%;
+    position: relative;
+}
+.find-by img{
+    width: 100%;
+}
+.slick-slide{
+    padding: 10px;
+}
+.find-heading{
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+
+}
