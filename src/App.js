@@ -8,18 +8,19 @@ import CarouselSlider from './components/carousel/CarouselSlider';
 import DynamicCarousel from './components/DynamicCarosel/DynamicCarousel';
 import FirstTripList from './components/HotelListing/FirstTripList';
 import HelpPlanet from './components/PlanetHelp/HelpPlanet';
+import Navbar2 from './layouts/header/Navbar2';
+import Travelstories from './pages/Travel-stories/Travelstories';
+import { Route, Routes } from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Interests />
-      <HomePage />
-      <CarouselSlider />
-      <DynamicCarousel />
-      <FirstTripList />
-      <HelpPlanet/>
-    </div>
+    <>
+      <Routes>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/travelstories" element={<Travelstories />} />
+      </Routes>
+    </>
   );
 }
 

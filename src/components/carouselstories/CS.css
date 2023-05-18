@@ -1,0 +1,57 @@
+.img-sider img {
+    height: 80vh !important;
+}
+
+.img-sider:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.img-sider h1:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: underline !important;
+}
+
+.carousel-caption {
+    text-align: left !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .01), rgba(0, 0, 0, .5) 30%, rgba(0, 0, 0, .95)) !important;
+    right: 0% !important;
+    bottom: 0rem !important;
+    left: 0% !important;
+}
+
+.btn-1 {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+    border-radius: 24px;
+    padding: 14px 24px;
+    background-clip: padding-box;
+    transition: color .1s linear, background-color .1s linear, border-color .1s linear;
+}
+
+.btn-1:hover {
+    background-color: #333333;
+}
+
+.c-content h1 {
+    font-weight: 700;
+    font-size: 48px;
+
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 38px;
+    width: 38px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black !important;
+    background-color: black;
+}

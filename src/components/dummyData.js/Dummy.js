@@ -21,49 +21,55 @@ import dot from '../../assets/images/greendots.svg'
 
 
 
-export const Interest =[
-    {
-     text: 'Hotels',
-     icon: <BiBed/>,
+export const Interest = [
+    {   id: 1,
+        text: 'Hotels',
+        icon: <BiBed />,
+    },
+    {    id: 2,
+        text: 'Things To Do',
+        icon: <MdOutlineLocalActivity />,
     },
     {
-        text: 'Things To Do',
-        icon: <MdOutlineLocalActivity/>,
-       },
-       {
+        id: 3,
         text: 'Vacations Rental',
-        icon: <TbHomeEco/>,
-       },
-       {
+        icon: <TbHomeEco />,
+    },
+    {
+        id: 4,
         text: 'Resturents',
-        icon: <IoMdRestaurant/>,
-       },
-       {
+        icon: <IoMdRestaurant />,
+    },
+    {   
+        id: 5,
         text: 'Travel Stories',
-        icon: <TbWorld/>,
-       },
-       {
+        icon: <TbWorld />,
+    },
+    {
+        id: 6,
         text: 'Hotels',
-        icon: <BiBed/>,
-       },
-       {
+        icon: <BiBed />,
+    },
+    {
+        id: 7,
         text: 'Hotels',
-        icon: <GiCommercialAirplane/>,
-       },
-       {
+        icon: <GiCommercialAirplane />,
+    },
+    {
+        id: 8,
         text: 'Hotels',
-        icon: <GiCruiser/>,
-       },
+        icon: <GiCruiser />,
+    },
 
 ]
 
-export const TripAdvisor =[
+export const TripAdvisor = [
     {
-     img: expe1,
-     title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
-     dots: dot,
-     rating: '12,560',
-     price: '120$'
+        img: expe1,
+        title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
+        dots: dot,
+        rating: '12,560',
+        price: '120$'
     },
     {
         img: expe2,
@@ -71,75 +77,75 @@ export const TripAdvisor =[
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe3,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe4,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe5,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe6,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe7,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe8,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe9,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe10,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe11,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
-       {
+    },
+    {
         img: expe1,
         title: `Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing & 5* BBQ at Al Khayma Camp™️`,
         dots: dot,
         rating: '12,560',
         price: '120$'
-       },
+    },
 ]
