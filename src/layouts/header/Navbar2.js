@@ -34,7 +34,7 @@ const Navbar2 = () => {
                             </Form>
                         </div>
 
-                        <div className='navbar ms-auto'>
+                        <div className='navbar ms-auto align-items-center'>
                             <ul className='d-none d-lg-flex mb-0 pb-0'>
                                 <li>
                                     <a href=""><GoPencil className='me-1' />Reviews</a>
