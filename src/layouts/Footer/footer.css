@@ -1,0 +1,15 @@
+.f-color1{
+    color: #333;
+}
+
+.footer-style a{
+    text-decoration: none !important;
+    color: black;
+    font-weight: 500;
+}
+.footer-bg{
+    background-color: #FAF1ED;
+}
+.line-high{
+    line-height: 26px;
+}
