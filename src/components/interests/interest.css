@@ -12,6 +12,7 @@
     border-radius: 10px;
     cursor: pointer;
     padding: 10px;
+    text-decoration: none;
 }
 .card-inner:hover{
     background-color: var(--black);
