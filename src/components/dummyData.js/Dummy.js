@@ -44,7 +44,7 @@ export const Interest = [
         id: 5,
         text: 'Travel Stories',
         icon: <TbWorld />,
-        Navlink : '/travelstories'
+        customlink: '/travelstories'
     },
     {
         id: 6,

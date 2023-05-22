@@ -5,6 +5,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from '../../assets/images/logo.svg'
 import './header.css'
 import { GoPencil } from "react-icons/go";
+import {Link} from 'react-router-dom'
 
 import { AiOutlineHeart, AiOutlineBell, AiOutlineShoppingCart } from "react-icons/ai";
 import { TypoGraphy } from '../../assets/fonts/Fonts';
@@ -21,7 +22,7 @@ function Header() {
       <Button variant="primary" className="d-lg-none" onClick={handleShow}>
         Launch
       </Button>
-      <div className='logo'><img src={logo} alt="" /></div>
+      <div className='logo'><Link to="/"><img src={logo} alt="" /></Link></div>
 
       <div className='navbar'>
       <ul className='d-none d-lg-flex'>

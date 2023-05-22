@@ -11,12 +11,11 @@ export default function Interests() {
     <div className='row'>
       {
         Interest?.map((n, i) => {
-          return <div key={i} className={`col card-inner ${i >= 5 ? ' d-lg-none' : ''}`}>
+          return<Link to={n.customlink} key={i} className={`col card-inner ${i >= 5 ? ' d-lg-none' : ''}`}>
             <p>{n.text}</p>
-            <span>{n.icon}</span></div>
-
-
-          // <Link to='/travelstories'>  </Link>
+            <span>{n.icon}</span>
+          </Link>
+  
         })
       }
       <div className='col card-inner'>
