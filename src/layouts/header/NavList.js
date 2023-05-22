@@ -15,13 +15,13 @@ const NavList = () => {
                                     <Nav.Link><Link className='text-decoration-none' to="/">Home</Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link><Link className='text-decoration-none' to="/">Hotels</Link></Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/hotels">Hotels</Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link><Link className='text-decoration-none' to="/">Things to Do</Link></Nav.Link>                          
+                                <Nav.Link><Link className='text-decoration-none' to="/thingstodo">Things to Do</Link></Nav.Link>                          
                                 </Nav.Item>
                                 <Nav.Item>
-                                <Nav.Link><Link className='text-decoration-none' to="/">Restaurants</Link></Nav.Link>                      
+                                <Nav.Link><Link className='text-decoration-none' to="/restaurants">Restaurants</Link></Nav.Link>                      
                                 </Nav.Item>
                                 <Nav.Item>
                                 <Nav.Link><Link className='text-decoration-none' to="/">Flights</Link></Nav.Link>                                

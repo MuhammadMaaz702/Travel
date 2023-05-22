@@ -13,8 +13,9 @@ export default function Interests() {
         Interest?.map((n, i) => {
           return <div key={i} className={`col card-inner ${i >= 5 ? ' d-lg-none' : ''}`}>
             <p>{n.text}</p>
-            <span>{n.icon}</span>
-          </div>
+            <span>{n.icon}</span></div>
+
+
           // <Link to='/travelstories'>  </Link>
         })
       }

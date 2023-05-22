@@ -1,0 +1,18 @@
+.thinks-hotel-bg {
+    background-image: url('/src//assets/images-B/things-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rounded-form .form-control{
+    border-radius: 40px;
+}
+.dots-img-size img{
+    width: 130px;
+}
+.dots-img-size2 img{
+    width: 50px;
+}
+.thing-card-img img{
+    height: 200px !important;
+}

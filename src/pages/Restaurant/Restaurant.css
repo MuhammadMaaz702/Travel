@@ -1,0 +1,22 @@
+.restaurant-hotel-bg{
+    background-image: url('/src//assets/images-B/restaurant-main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.res-img img{
+   height: 45px;
+ 
+}
+.res-img{
+    position: relative;
+}
+.minis-top{
+    position: absolute;
+    top: -21px;
+    left: 159px;
+}
+.res-img p{
+    line-height: 19px;
+}
