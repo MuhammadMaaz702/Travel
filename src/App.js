@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './pages/HomePage/HomePage';
 import Travelstories from './pages/Travel-stories/Travelstories';
 import { Route, Routes } from 'react-router-dom'
+import Tsdeteils from './pages/Travelstoriesdeteils/Tsdeteils';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route  path="/" element={<HomePage />} />
         <Route  path="/travelstories" element={<Travelstories />} />
+        <Route  path="/travelstoriesdetails" element={<Tsdeteils/>} />
       </Routes>
     
     </>

@@ -12,18 +12,17 @@
 
 .mytext {
     position: absolute;
-    top: 69%;
+    top: 374px;
     background: linear-gradient(180deg, rgba(0, 0, 0, .01), rgba(0, 0, 0, .5) 30%, rgba(0, 0, 0, .95)) !important;
 }
 
-.slick-prev {
-    top: 57% !important;
-    left: 7%;
+.img-sider .slick-prev {
+    display: none !important;
 }
 
-.slick-next {
-    top: 57% !important;
-    right: 7%;
+.img-sider .slick-next {
+    display: none !important;
+
 }
 
 .img-sider:hover {
@@ -60,7 +59,18 @@
     font-size: 48px;
 
 }
+.bt-set-main1{
+    position: absolute;
+    left: 100px;
+    bottom: 46%;
 
+}
+.bt-set-main2{
+    position: absolute;
+    right: 100px;
+    bottom: 46%;
+
+}
 /* /////////////slider stories///////////// */
 
 .btn-hide button {

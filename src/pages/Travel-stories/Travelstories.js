@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Travel-stories/Travelstories.css'
 import NavList from '../../layouts/header/NavList'
 import Navbar2 from '../../layouts/header/Navbar2'
-import { Container, Row, Col, Badge, Card } from 'react-bootstrap'
+import { Container, Row, Col, Card } from 'react-bootstrap'
 import img1 from '../../assets/images-B/r1.jpg'
 import img2 from '../../assets/images-B/r2.jpg'
 import img3 from '../../assets/images-B/r3.jpg'
@@ -10,11 +10,25 @@ import img4 from '../../assets/images-B/r4.jpg'
 import img5 from '../../assets/images-B/c1.jpg'
 import img6 from '../../assets/images-B/c2.jpg'
 import img7 from '../../assets/images-B/c3.jpg'
+import v1 from '../../assets/images-B/v1.jpg'
+import v2 from '../../assets/images-B/v2.jpg'
+import v3 from '../../assets/images-B/v4.jpg'
+import v4 from '../../assets/images-B/v5.jpg'
+import v5 from '../../assets/images-B/v6.jpg'
+import v6 from '../../assets/images-B/v7.jpg'
+import v7 from '../../assets/images-B/v8.jpg'
 import Exampleslider from '../../components/carouselstories/Exampleslider'
 import { AiOutlineHeart } from "react-icons/ai";
 import Sliderstories from '../../components/carouselstories/Sliderstories'
 import Footer from '../../layouts/Footer/Footer'
 const Travelstories = () => {
+  const [active, setActive] = useState(false);
+  const handleClick = () => {
+    setActive(!active);
+  };
+
+
+
   return (
     <>
       <Navbar2 />
@@ -22,7 +36,7 @@ const Travelstories = () => {
       <section>
         <Container fluid>
           <Row className='justify-content-center py-4'>
-            <Col className='' lg={11}>
+            <Col className='main-slider-height' lg={11}>
               <Exampleslider />
             </Col>
           </Row>
@@ -146,21 +160,48 @@ const Travelstories = () => {
                 <p>The most exciting destinations, experiences, hidden gems, and traveler faves to check out now.</p>
               </div>
             </Col>
-            <Row>
-              <Col className='d-flex' lg={12}>
-                <div className='bg-size box-2 m-2'>
+            <Row className='pb-5'>
+              <Col className='d-flex' lg={3}>
+                <div className='visit-box-1 position-relative my-5 hover-style'>
+                  <img className='img-fluid' src={v1} alt="" />
                   <div className='bottom-content p-3'>
-                    <h3><a className='text-white text-decoration-none' href="#">Why Santa Barbara should be your next weekend getaway</a></h3>
+                    <h3><a className='text-white text-decoration-none' href="#">Where to whale watch around the world this summer</a></h3>
                   </div>
                 </div>
-                <div className='bg-size box-2  m-2'>
-                  <div className='bottom-content p-3'>
-                    <h3><a className='text-white text-decoration-none' href="#">Why Santa Barbara should be your next weekend getaway</a></h3>
+              </Col>
+              <Col className='d-flex flex-column' lg={3}>
+                <div className='visit-box-2 m-2 position-relative  hover-style' >
+                  <img className='img-fluid' src={v7} alt="" />
+                  <div className='bottom-content'>
+                    <h3><a className='text-white text-decoration-none' href="#">How to see Bavaria a long weekend</a></h3>
                   </div>
                 </div>
-                <div className='bg-size box-2  m-2'>
-                  <div className='bottom-content p-3'>
-                    <h3><a className='text-white text-decoration-none' href="#">Why Santa Barbara should be your next weekend getaway</a></h3>
+                <div className='visit-box-2 m-2 position-relative  hover-style'>
+                  <img className='img-fluid' src={v3} alt="" />
+                  <div className='bottom-content '>
+                    <h3><a className='text-white text-decoration-none' href="#">Why Santa  be your weekend getaway</a></h3>
+                  </div>
+                </div>
+              </Col>
+              <Col className='d-flex flex-column' lg={3}>
+                <div className='visit-box-2 m-2  position-relative  hover-style'>
+                  <img className='img-fluid' src={v3} alt="" />
+                  <div className='bottom-content'>
+                    <h3><a className='text-white text-decoration-none ' href="#">4 epic rond for your next great adventure</a></h3>
+                  </div>
+                </div>
+                <div className='visit-box-2 m-2  position-relative  hover-style'>
+                  <img className='img-fluid' src={v5} alt="" />
+                  <div className='bottom-content '>
+                    <h3><a className='text-white text-decoration-none' href="#">Why Santa your next weekend getaway</a></h3>
+                  </div>
+                </div>
+              </Col>
+              <Col className='d-flex' lg={3}>
+                <div className='visit-box-1  my-5 position-relative  hover-style'>
+                  <img className='img-fluid' src={v6} alt="" />
+                  <div className='bottom-content'>
+                    <h3><a className='text-white text-decoration-none' href="#">4 epic road trips in Ireland for your next great adventure</a></h3>
                   </div>
                 </div>
               </Col>
@@ -186,67 +227,88 @@ const Travelstories = () => {
               </div>
             </Col>
           </Row>
-          <Row className='justify-content-center'>
-            <Col className='d-flex flex-column justify-content-between' lg={3}>
-              <div className=''>
-                <div className=' bg-size img-box1 my-3 hover-style'>
 
-                </div>
-                <h6 className='pb-5 fw-bold' >
-                  <a className='text-dark text-decoration-none' href="#">Taste the World in One City: Bangkok</a>
-                </h6>
-                <div className='bg-size img-box2 my-3 hover-style  explore-content'>
-                  <h3 className='p-4'><a className='text-white text-decoration-none' href="#">Two Charleston experts debate your top travel questions</a></h3>
-                </div>
-              </div>
-            </Col>
-            <Col className='d-flex flex-column justify-content-between' lg={3}>
-              <div className=''>
-                <div className=' bg-size img-box3 explore-content my-3 hover-style'>
-                  <h3 className='p-4'><a className='text-white text-decoration-none' href="#">Why you should absolutely go on a Charleston ghost tour</a></h3>
-                </div>
-                <div className='bg-size img-box4 my-3 hover-style'>
+          {
+            ["1",
+              "2",
+              "3",
+            ].map((v) => {
+              return (
+                <>
+                  <Row className='justify-content-center'>
 
-                </div>
-                <h6 className='pb-5 fw-bold' >
-                  <a className='text-dark text-decoration-none' href="#"> 3 ways to get from Los Angeles to Las Vegas</a>
-                </h6>
-              </div>
-            </Col>
-            <Col className='d-flex flex-column justify-content-between' lg={3}>
-              <div className=''>
-                <div className=' bg-size img-box5 my-3 hover-style'>
+                    <Col className='d-flex flex-column justify-content-between' lg={3}>
+                      <div className=''>
+                        <div className=' bg-size img-box1 my-3 hover-style'>
+                          {/* //////////background image 1/////////// */}
+                        </div>
+                        <h6 className='pb-5 fw-bold' >
+                          <a className='text-dark text-decoration-none' href="#">Taste the World in One City: Bangkok</a>
+                        </h6>
+                        <div className='bg-size img-box2 my-3 hover-style  explore-content'>
+                          {/* //////////background image 2/////////// */}
+                          <h3 className='p-4'><a className='text-white text-decoration-none' href="#">Two Charleston experts debate your top travel questions</a></h3>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-between' lg={3}>
+                      <div className=''>
+                        <div className=' bg-size img-box3 explore-content my-3 hover-style'>
+                          {/* //////////background image 3/////////// */}
+                          <h3 className='p-4'><a className='text-white text-decoration-none' href="#">Why you should absolutely go on a Charleston ghost tour</a></h3>
+                        </div>
+                        <div className='bg-size img-box4 my-3 hover-style'>
+                          {/* //////////background image 4/////////// */}
+                        </div>
+                        <h6 className='pb-5 fw-bold' >
+                          <a className='text-dark text-decoration-none' href="#"> 3 ways to get from Los Angeles to Las Vegas</a>
+                        </h6>
+                      </div>
+                    </Col>
+                    <Col className='d-flex flex-column justify-content-between' lg={3}>
+                      <div className=''>
+                        <div className=' bg-size img-box5 my-3 hover-style'>
+                          {/* //////////background image 5/////////// */}
+                        </div>
+                        <h6 className='pb-4 fw-bold' >
+                          <a className='text-dark text-decoration-none' href="#"> How to beat the crowds at Paris's most popular museums and attractions</a>
+                        </h6>
+                        <div className='bg-size img-box6 my-3   explore-content hover-style'>
+                          {/* //////////background image 6/////////// */}
+                          <h3 className='p-4'><a className='text-white text-decoration-none' href="#">We gave unanswered Washington D.C. forum questions a full workup</a></h3>
+                        </div>
+                      </div>
+                    </Col>
 
-                </div>
-                <h6 className='pb-4 fw-bold' >
-                  <a className='text-dark text-decoration-none' href="#"> How to beat the crowds at Paris's most popular museums and attractions</a>
-                </h6>
-                <div className='bg-size img-box6 my-3   explore-content hover-style'>
-                  <h3 className='p-4'><a className='text-white text-decoration-none' href="#">We gave unanswered Washington D.C. forum questions a full workup</a></h3>
-                </div>
-              </div>
-            </Col>
-            <div className='py-5'><nav aria-label="Page navigation example">
-              <ul class="pagination justify-content-center">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                  </a>
-                </li>
-              </ul>
-            </nav></div>
-          </Row>
+                  </Row>
+
+                </>
+              )
+            })
+          }
+
+          <div className='py-5 paginate'><nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                </a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                </a>
+              </li>
+            </ul>
+            <div className='text-center'><small>Showing results 1-12 of 168</small></div>
+          </nav></div>
+
         </Container>
       </section>
-      <Footer/>
+      <Footer />
     </>
   )
 }

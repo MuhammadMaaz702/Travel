@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import { Dropdown, Container,Row,Col } from 'react-bootstrap';
 import { BsThreeDots } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 const NavList = () => {
     return (
         <>
@@ -11,31 +12,31 @@ const NavList = () => {
                         <Col className='' lg={11}>
                             <Nav className="Nav-link-style px-2" activeKey="/home">
                                 <Nav.Item>
-                                    <Nav.Link href="/home">Home</Nav.Link>
+                                    <Nav.Link><Link className='text-decoration-none' to="/">Home</Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-1">Hotels</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Hotels</Link></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Things to Do</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Things to Do</Link></Nav.Link>                          
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Restaurants</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Restaurants</Link></Nav.Link>                      
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Flights</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Flights</Link></Nav.Link>                                
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Vacation Rentals</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Vacation Rentals</Link></Nav.Link>                                  
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Shopping</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Shopping</Link></Nav.Link>                                  
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Cruises</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Cruises</Link></Nav.Link>                                   
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="link-2">Rental Cars</Nav.Link>
+                                <Nav.Link><Link className='text-decoration-none' to="/">Rental Cars</Link></Nav.Link>                                 
                                 </Nav.Item>
                                 <Nav.Item>
                                     <div class="dropdown">

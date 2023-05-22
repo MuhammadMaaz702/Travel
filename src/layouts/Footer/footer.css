@@ -1,15 +1,49 @@
-.f-color1{
+.f-color1 {
     color: #333;
 }
 
-.footer-style a{
+.footer-style a {
     text-decoration: none !important;
     color: black;
     font-weight: 500;
+    font-size: 14px;
 }
-.footer-bg{
+
+.footer-bg {
     background-color: #FAF1ED;
 }
-.line-high{
+
+.line-high {
     line-height: 26px;
+}
+
+.underline ul li a {
+    text-decoration: underline !important;
+}
+
+.underline ul li a:hover {
+    color: #333;
+}
+
+.HAOGn {
+    height: 40px;
+    width: 40px;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 11px;
+}
+
+.select-style .form-select {
+    width: 172px;
+    border-radius: 12px;
+    font-weight: 600 !important;
+    overflow-y: scroll !important;
+}
+
+.select-style .form-select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid #b8b8b8 !important;
 }

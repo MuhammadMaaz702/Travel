@@ -9,7 +9,7 @@ import { TypoGraphy } from '../../assets/fonts/Fonts';
 import { Form } from 'react-bootstrap'
 import { BiSearch } from "react-icons/bi";
 import { Container, Row, Col } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 const Navbar2 = () => {
     const [show, setShow] = useState(false);
@@ -25,7 +25,7 @@ const Navbar2 = () => {
                         <Button variant="primary" className="d-lg-none" onClick={handleShow}>
                             Launch
                         </Button>
-                        <div className='logo d-flex '><img src={logo} alt="" /></div>
+                        <div className='logo d-flex '><Link to="/"><img className='img-fluid' src={logo} alt="" /></Link> </div>
 
                         <div className='Nav-from-style ps-4 col-lg-4'>
                             <Form>

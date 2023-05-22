@@ -6,7 +6,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './interest.css'
 import { Link } from 'react-router-dom'
 
-
 export default function Interests() {
   return (
     <div className='row'>
