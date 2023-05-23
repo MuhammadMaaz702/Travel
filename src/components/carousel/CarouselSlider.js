@@ -15,7 +15,7 @@ export default function CarouselSlider()  {
     var settings = {
       dots: false,
       infinite: false,
-      speed: 500,
+      speed: 1000,
       slidesToShow: 4,
       nextArrow: <FaArrowRight className="slick-arrow slick-prev" />,
       prevArrow: <FaArrowLeft className="slick-arrow slick-next" />,

@@ -19,7 +19,7 @@ export default function DynamicCarousel() {
         className: 'advised',
         dots: false,
         infinite: false,
-        speed: 0,
+        speed: 1000,
         slidesToShow: 4,
         nextArrow: <FaArrowRight className="slick-arrow slick-prev arr-right" />,
         prevArrow: <FaArrowLeft className="slick-arrow slick-next arr-right" />,

@@ -13,6 +13,10 @@
     cursor: pointer;
     padding: 10px;
     text-decoration: none;
+    padding-bottom: 20px;
+}
+.card-inner p{
+    margin: 0;
 }
 .card-inner:hover{
     background-color: var(--black);
@@ -31,15 +35,41 @@
     display: flex;
 }
 .dropdown-toggle::after {
-    display: inline-block;
-    padding-left: 67px;
-    content: "...";
-border: 0;
+    display: none
 }
+.dropdown{
+    padding: 0;
+    margin-top: -8px;
+}
+.outer-col a{
+    color: black;
+}
+.outer-col a:hover{
+    color: white;
+}
+.dropdown button{
+background-color: transparent;
+border: none;
+color: black;
+display: block;
+align-items: center;
+justify-content: space-between;
+width: 100% !important;
+height: 100%;
+}
+.more-btn{
+    width: 100% !important;
+}
+.dropdown button:hover{
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 255, 255);
+    }
 .card-inner span{
-    display: block !important;
+    display: block !important
+}
+.card-inner span svg{
     font-size: 20px;
-
 }
 @media only screen and (min-width: 1024px) {
 
